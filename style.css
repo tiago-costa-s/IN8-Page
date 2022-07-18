@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'Helvetica UltraLt';
+    src: url('/assets/Fonts/HelveticaUltraLt_0.otf') format('opentype'),
+        url('/assets/Fonts/HelveticaUltraLt_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto light';
+    src: url(/assets/Fonts/Roboto-Light_0.otf) format('opentype'),
+        url(/assets/Fonts/Roboto-Light_0.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url(/assets/Fonts/Roboto-Regular_0.otf) format('opentype'),
+        url(/assets/Fonts/Roboto-Regular_0.ttf) format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Condensed Regular';
+    src: url(/assets/Fonts/HelveticaCondensedR_0.otf) format('opentype'),
+        url(/assets/Fonts/HelveticaCondensedR_0.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* margin: auto; */
+    /* width: 100%; */
+    /* max-width: 1920px; */
+    background-color: rgb(238, 238, 238);
+    border: 2px solid rgb(21, 255, 0);
+}
+
+main {
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 920px;
+    background-image: url(./assets/imagens/index-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* border: 3px solid rgb(13, 0, 255); */
+}
+
+nav {
+    width: 100%;
+    max-width: 100%;
+
+    /* background-color: rgb(92, 232, 232); */
+    /* border: 3px solid rgb(234, 255, 0); */
+}
+
+.menu {
+    margin: auto;
+    width: 57%;
+    padding: 45px;
+    overflow: hidden;
+
+    /* background-color: rgb(68, 176, 176);  */
+    /* border: 3px solid rgb(0, 26, 255); */
+}
+
+#logo-in8dev {
+    width: 165px;
+    float: left;
+}
+
+.menu ul {
+    margin: 0;
+    float: right;
+}
+
+.menu li {
+    display: inline;
+    padding: 10px;
+
+}
+
+.menu a {
+    font-size: 40px;
+    font-family: 'Roboto Regular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {    
+    text-decoration: underline 1px solid rgb(172, 172, 172);   
+    
+
+}
+
+.menu-mobilie {    
+    width: 0px;
+}
+
+.textoTopo {
+    margin: auto;
+    width: 57%;
+    padding: 45px;
+    padding-top: 8%;
+    padding-bottom: 0px;
+    overflow: hidden;
+    /* background-color: rgb(68, 176, 176); */
+    /* border: 3px solid rgb(0, 26, 255); */
+}
+
+.textoTopo h1 {
+    margin-bottom: 5px;
+    font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
+    font-size: 7.5em;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.textoTopo p {
+    font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
+    font-size: 3.2em;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.cadastro {
+    width: 100%;
+    height: 745px;
+    background-color: #29abe2;
+
+    /* border: 3px solid rgb(13, 0, 255); */
+}
+
+form {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.form {
+    margin: auto;
+    width: 651px;
+
+    /* border: 1px solid rgb(0, 0, 0); */
+    /* background-color: rgb(146, 230, 255); */
+}
+
+h2 {
+    margin-bottom: 65px;
+    padding-top: 75px;
+    font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.668);
+    text-align: center;
+}
+
+label {
+    font-family: 'Roboto Regular', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+}
+
+input {
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 16px;
+    background-color: #29abe2;
+    border: 0;
+    border-bottom: 1.0px solid rgba(255, 255, 255, 0.568);
+    outline: none;
+    font-family: 'Helvetica Condensed Regular', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.768);
+}
+
+#cadastrar {
+    text-align: center;
+}
+
+input[type="submit"] {
+    width: 370px;
+    margin-top: 75px;
+    padding: 13.5px;
+    font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
+    font-size: 3.1em;
+    color: #29aae2ad;
+    border: 0;
+    background-color: #012d51;
+}
+
+/* Lista Cadastro */
+
+.lista {
+    width: 100%;
+    height: 620px;
+    background-color: rgb(255, 255, 255);
+}
+
+h3 {
+    padding-top: 56px;
+    margin-bottom: 92px;
+    font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
+    font-size: 3.2em;
+    font-weight: normal;
+    color: #29aae2;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+    border-collapse: collapse;
+    text-align: center;
+    border: 3px solid white;
+}
+
+th {
+    width: 330px;
+    border: 2px solid #29aae260;
+    border-bottom: none;
+    border-top-color: white;
+    font-family: 'Roboto Regular', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #012d51;
+
+}
+
+td {
+    border: 2px solid #29aae260;
+    font-size: 1.5em;
+    color: #808080;
+}
+
+.botao-topo {
+    width: 46px;
+    float: right;
+    margin-top: -3%;
+    margin-right: 10%;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 335px;
+    background-image: url(/assets/imagens/rodape-desktop.jpg);
+    background-position: center;
+}
+
+.listaRodape {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+}
+
+.listaRodape li {
+    margin-bottom: 20px;
+    font-family: 'Roboto light', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.673);
+}
+
+@media screen and (max-width: 1410px) {
+    .botao-topo {
+        margin-top: 2%;
+        margin-right: 5%;
+    }
+
+}
+
+@media screen and (max-width: 1010px) {
+    table {
+        margin: auto;
+        width: 99%;
+        max-width: 1000px;
+    }
+
+}
+
+/* Screen 1000px */
+@media screen and (max-width:1000px) {   
+    header {
+        width: 100%;
+        max-width: 1000px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+    /* Topo */
+    main {
+        width: 100%;
+        max-width: 768px;
+        border: 2px solid red;
+    }
+
+    header {
+        width: 100%;
+        height: 465px;
+    }
+
+    nav {
+        border: 2px solid rgb(234, 255, 0);
+    }
+
+    .menu {
+        width: 100%;
+        border: 3px solid rgb(0, 26, 255);
+    }
+
+    #logo-in8dev {
+        width: 110px;
+        height: 100%x;
+        float: right;
+        transform: translate(-20%, -80%);
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .menu-mobilie{
+        margin: top
+        ;        
+        width: 25px;
+    }
+
+
+    .textoTopo {
+        width: 75%;
+        padding: 45px;
+        padding-top: 22px;
+    }
+
+    .textoTopo h1 {
+        margin-bottom: 5px;
+        font-size: 3.5em;
+    }
+
+    .textoTopo p {
+        font-size: 1.5em;
+    }
+
+    /* Cadastro */
+    .cadastro {
+        width: 100%;
+        height: 450px;
+        background-color: #29abe2;
+        overflow: hidden;
+    }
+
+    form {
+        margin: auto;
+        width: 60%;
+        margin-top: 30px;
+        /* overflow: hidden; */
+    }
+
+    h2 {
+        margin-bottom: 0px;
+        padding-top: 40px;
+        padding-bottom: 1.9px;
+        font-size: 2rem;
+    }
+
+    label {
+        font-family: 'Roboto Regular', Arial, Helvetica, sans-serif;
+        font-size: .6em;
+        color: rgba(255, 255, 255, 0.693);
+    }
+
+    input {
+        width: 100%;
+        margin-top: 7px;
+        margin-bottom: 6px;
+        font-size: .8em;
+    }
+
+    #cadastrar {
+        text-align: center;
+    }
+
+    input[type="submit"] {
+        width: 250px;
+        margin-top: 40px;
+        padding: 7px;
+        font-size: 2em;
+    }
+
+    /*Lista Cadastro*/
+    .lista {
+        width: 100%;
+        height: 380px;
+    }
+
+    h3 {
+        padding-top: 30px;
+        margin-bottom: 50px;
+        font-size: 2em;
+    }
+
+    table {
+        width: 600px;
+        height: 200px;
+    }
+
+    th {
+        font-size: .8em;
+    }
+
+    td {
+        font-size: 1em;
+    }
+
+    .botao-topo {
+        display: none;
+    }
+
+    /* Rodape */
+    footer {
+        background-size: cover;
+        height: 200px;
+    }
+
+    .listaRodape li {
+        margin-bottom: 0px;
+        font-size: .75em;
+        padding-bottom: 12px;
+        color: rgba(255, 255, 255, 0.533);
+    }
+}
+
+/* Smartphones */
+/* @media screen and (max-width: 800px){
+    
+} */

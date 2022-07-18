@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>IN8-Page</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <div class="menu" id="nav-menu">
+                    <div class="logo">
+                        <img id="logo-in8dev" src="/assets/logo-in8-dev.svg" alt="logo-in8dev">
+                    </div>
+                    <div class="menu-mobilie">
+                        <img src="/assets/icones/hamburguer.svg" alt="">
+                    </div>  
+                    <ul>
+                        <li><a href="#form-cad">cadastro</a></li>
+                        <li><a href="#lista-cad">lista</a></li>
+                        <li><a href="#sobre-mim">sobre mim</a></li>
+                    </ul>
+                </div>
+                              
+            </nav>
+            <div class="textoTopo">
+                <h1>ESTÁGIO</h1>
+                <p>PROVA DE SELEÇÃO</p>
+            </div>
+        </header>
+
+        <div class="cadastro" id="form-cad">
+            <div class="form">
+                <h2>CADASTRO</h2>
+                <form action="/qlqrcoisa" method="post">
+                    <label for="nome">Nome</label>
+                    <input class="input" type="text" name="nome" required>
+
+                    <label for="e-mail">E-mail</label>
+                    <input class="input" type="email" name="e-mail" required>
+
+                    <label for="nascimento">Nascimento</label>
+                    <input class="input" type="text" name="nascimento" required>
+
+                    <label for="telefone">Telefone</label>
+                    <input class="input" type="tel" name="telefone" required>
+
+                    <div id="cadastrar">
+                        <input type="submit" value="CADASTRAR">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="lista" id="lista-cad">
+            <h3>LISTA DE CADASTRO</h3>
+            <table>
+                <tr>
+                    <th class="cabecalho"></th>
+                    <th>NOME</th>
+                    <th>E-MAIL</th>
+                    <th>NASCIMENTO</th>
+                    <th>TELEFONE</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>a</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <div class="botao-topo">
+                <a href="#nav-menu"><img  src="/assets/icones/topo-pag.svg" alt=""></a>
+            </div>
+        </div>
+        <footer id="sobre-mim">
+            <div class="listaRodape">
+                <ul">
+                    <li>Fulano Beltrano de Oliveira da Silva</li>
+                    <li>fulanobos@gmail.com</li>
+                    <li>(31) 9 9666-1111</li>
+                    <li>Faculdade de Belo Horizonte</li>
+                    </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
