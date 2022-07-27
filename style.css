@@ -36,24 +36,19 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(228, 228, 228);
-
-}
-
 main {
-    width: 100%;
-    max-width: 1920px;
-    margin: auto;
+    width: 100vw;
+    max-width: 1280px;
 }
 
 header {
     width: 100%;
-    height: 920px;
+    height: 620px;
     background-image: url(./assets/imagens/index-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 2vw;
 }
 
 nav {
@@ -61,19 +56,21 @@ nav {
     max-width: 100%;
 }
 
-.menu {
-    margin: auto;
-    width: 57%;
-    padding: 45px;
-    overflow: hidden;
+#logo-in8dev {
+    width: 110px;
 }
 
-#logo-in8dev {
-    width: 165px;
-    float: left;
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: right;
+    margin: auto;
+    width: 670px;
 }
 
 .menu ul {
+    width: 100%;
     margin: 0;
     float: right;
 }
@@ -81,20 +78,18 @@ nav {
 .menu li {
     display: inline;
     padding: 10px;
-
 }
 
 .menu a {
-    font-size: 40px;
+    font-size: .8rem;
     font-family: 'Roboto Regular', Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 1.2rem;
+    font-weight: normal;   
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline 1px solid rgb(172, 172, 172);
+    text-decoration: underline 2px solid rgb(172, 172, 172);
 }
 
 .menu-mobilie {
@@ -113,14 +108,14 @@ a:hover {
 .textoTopo h1 {
     margin-bottom: 5px;
     font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
-    font-size: 7.5em;
+    font-size: 4.8em;
     font-weight: normal;
     color: rgb(255, 255, 255);
 }
 
 .textoTopo p {
     font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
-    font-size: 3.2em;
+    font-size: 2em;
     font-weight: normal;
     color: rgb(255, 255, 255);
 }
@@ -145,7 +140,7 @@ h2 {
     margin-bottom: 65px;
     padding-top: 75px;
     font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
-    font-size: 3em;
+    font-size: 1em;
     font-weight: normal;
     color: rgba(255, 255, 255, 0.668);
     text-align: center;
@@ -214,7 +209,7 @@ table {
 }
 
 th {
-    width: 20%;    
+    width: 20%;
     border: 2px solid #29aae260;
     border-bottom: none;
     border-top-color: white;
@@ -343,7 +338,7 @@ footer {
     .form {
         margin: auto;
         width: 60%;
-        margin-top: 30px;        
+        margin-top: 30px;
     }
 
     h2 {
@@ -475,7 +470,7 @@ footer {
     .form {
         margin: auto;
         width: 80%;
-        margin-top: -10px; 
+        margin-top: -10px;
     }
 
     h2 {
