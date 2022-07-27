@@ -36,11 +36,6 @@
     box-sizing: border-box;
 }
 
-/* body{
-    width: 100vw;
-} */
-
-
 main {
     width: 100%;
     max-width: 1280px;
@@ -54,7 +49,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   
+
 }
 
 nav {
@@ -64,7 +59,6 @@ nav {
     /* border: 1px solid greenyellow; */
     padding: 35px;
     /* border: 2px solid pink; */
-    
 }
 
 #logo-in8dev {
@@ -77,8 +71,8 @@ nav {
     align-items: center;
     text-align: right;
     margin: auto;
-    width: 670px;    
-    
+    width: 670px;
+
     /* border: 2px solid red; */
 }
 
@@ -112,7 +106,7 @@ a:hover {
 .textoTopo {
     margin: auto;
     margin-top: 105px;
-    width: calc(1220px  - 550px);
+    width: calc(1220px - 550px);
     /* width: 660px; */
     overflow: hidden;
 
@@ -135,26 +129,28 @@ a:hover {
 }
 
 .cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    height: 745px;
+    height: 495px;
     background-color: #29abe2;
 }
 
-form {
-    margin-top: 30px;
+/* form {
+    margin-top: 20px;
     overflow: hidden;
-}
+} */
 
 .form {
     margin: auto;
-    width: 651px;
+    width: 450px;
 }
 
 h2 {
-    margin-bottom: 65px;
-    padding-top: 75px;
+    margin-bottom: 50px;
     font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 2.2em;
     font-weight: normal;
     color: rgba(255, 255, 255, 0.668);
     text-align: center;
@@ -162,21 +158,20 @@ h2 {
 
 label {
     font-family: 'Roboto Regular', Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: .7em;
     color: rgb(255, 255, 255);
 }
 
 input {
-    width: 100%;
-    margin-top: 13px;
-    margin-bottom: 16px;
+    width: 100%;    
+    margin-bottom: 10px;
     background-color: #29abe2;
     border: 0;
     border-bottom: 1.0px solid rgba(255, 255, 255, 0.568);
     outline: none;
     font-family: 'Helvetica Condensed Regular', Arial, Helvetica, sans-serif;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: rgba(255, 255, 255, 0.768);
 }
 
@@ -185,11 +180,11 @@ input {
 }
 
 input[type="submit"] {
-    width: 370px;
-    margin-top: 75px;
-    padding: 13.5px;
+    width: 270px;
+    margin-top: 40px;
+    padding: 8px;
     font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
-    font-size: 3.1em;
+    font-size: 2.2em;
     color: #29aae2ad;
     border: 0;
     background-color: #012d51;
