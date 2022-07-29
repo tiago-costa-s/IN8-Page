@@ -49,7 +49,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 nav {
@@ -59,25 +58,26 @@ nav {
 
 #logo-in8dev {
     width: 110px;
+
 }
 
 .menu {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    text-align: right;
     margin: auto;
     width: 670px;
 }
 
 .menu ul {
-    width: 100%;
-    margin: 0;
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 220px;
 }
 
 .menu li {
-    display: inline;
     padding: 10px;
 }
 
@@ -185,7 +185,6 @@ input[type="submit"] {
 
 h3 {
     padding: 35px;
-    /* margin-bottom: 50px; */
     font-family: 'Helvetica UltraLt', Arial, Helvetica, sans-serif;
     font-size: 2em;
     font-weight: normal;
