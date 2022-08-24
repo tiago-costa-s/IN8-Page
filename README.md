@@ -15,7 +15,7 @@ Criar uma pagina web com base no design apresentado, replicar os modelos de resp
 ##Modelos 
 
 DeskTop.
-![](https://postimg.cc/ZvJQwkV4)
+![](https://i.postimg.cc/prjtXRjh/desktop.jpg)
 Mobile.
 
 Smartphone.
