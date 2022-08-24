@@ -20,9 +20,9 @@ DeskTop
 
 Tablet
 
-![](https://postimg.cc/yWGTSsz5)
+![](https://i.postimg.cc/7YHtdZtx/tablet.jpg)
 
 Smartphone
 
-![](https://postimg.cc/Mcs9PBhZ)
+![](https://i.postimg.cc/50JDtqgz/mobile.jpg)
 
