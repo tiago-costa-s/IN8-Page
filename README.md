@@ -12,7 +12,7 @@ Objetivo.
 Criar uma pagina web com base no design apresentado, replicar os modelos de responsividade para os dispositivos do tipo desktop, tablet e smartphone.
 
 
-##Modelos 
+# Modelos 
 
 DeskTop
 
@@ -24,4 +24,5 @@ Tablet
 
 Smartphone
 
+![](https://postimg.cc/Mcs9PBhZ)
 
