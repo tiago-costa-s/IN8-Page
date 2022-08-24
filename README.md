@@ -16,7 +16,7 @@ Criar uma pagina web com base no design apresentado, replicar os modelos de resp
 
 DeskTop
 
-![](https://postimg.cc/Z968GdBz)
+![](https://i.postimg.cc/wBGws59M/desktop.jpg)
 
 Tablet
 
