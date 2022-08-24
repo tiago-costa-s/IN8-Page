@@ -20,6 +20,8 @@ DeskTop
 
 Tablet
 
+![](https://postimg.cc/yWGTSsz5)
+
 Smartphone
 
 
