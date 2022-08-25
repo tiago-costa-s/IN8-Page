@@ -4,6 +4,8 @@
 
 Olá,
 
+Após realizar a publicação do desafio, percebi que ainda existem alguns ajustes a serem feitos. Como aprendi um pouco sobre flex-box e grid resolvi aplicar os conhecimentos no projeto.
+
 Realizei a publicação da pagina no Netlify, você poderá acessar através do link abaixo:
 
 link: https://thriving-pegasus-396b94.netlify.app
